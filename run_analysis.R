@@ -40,7 +40,7 @@ finalData<-aggregate(labeledData[,1:86],list(activity=labeledData$activity,subje
 
 
 #save data
-write.table(finalData,file="tidyData.txt",row.names=TRUE)
+write.table(finalData,file="tidyData.txt",row.name=FALSE)
 
 #altetnatives to step 5
 #Alternative 2
